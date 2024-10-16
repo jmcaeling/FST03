@@ -35,12 +35,6 @@ git log
 - Shorter history
 git log --oneline
 
-- Show the history
-git log
-
-- Shorter history
-git log --oneline
-
 -List all branches
 git branch -A
 
