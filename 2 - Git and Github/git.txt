@@ -34,8 +34,6 @@ git log
 
 - Shorter history
 git log --oneline
-<<<<<<< HEAD
-=======
 
 -List all branches
 git branch -A
@@ -46,5 +44,3 @@ git branch [branch_name]
 -Switch to a different branch
 git checkout [branch_name]
 git switch [branch_name]
-
->>>>>>> feature
