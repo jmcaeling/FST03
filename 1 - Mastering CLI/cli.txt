@@ -1,0 +1,17 @@
+mkdir - to create a folder, make sure to enclose the folder name if its more than 1word
+
+rmdir - to delete a folder
+
+ls - list folders
+
+pwd - present working directory
+
+clears - to clear commands
+
+cd - change directory
+
+cd .. - to return to parent directory, 1 above folder
+
+touch - create file, include the ext
+
+rm <filename> - delete file
