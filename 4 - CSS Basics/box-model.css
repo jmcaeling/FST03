@@ -1,0 +1,79 @@
+
+/* PADDING */
+.box1{
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+/* Shortcut */
+/* 1value will apply to all sides */
+/* 2value = 1st value is for t/b, 2nd is r/l */
+/* 3value =  1st is for top, 2nd is for r/l, 3rd is bottom*/
+/* 4value = top left bottom right */
+.box2{
+    padding: 20px;
+    padding: 20px 10px;
+    padding: 20px 10px 30px;
+    padding: 10px 20px 30px 40px;
+
+}
+
+
+
+/* MARGIN */
+.box3{
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+/* Shortcut */
+/* 1value will apply to all sides */
+/* 2value = 1st value is for t/b, 2nd is r/l */
+/* 3value =  1st is for top, 2nd is for r/l, 3rd is bottom*/
+/* 4value = top left bottom right */
+.box4{
+    margin: 10px;
+    margin: 10px 20px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px 30px 40px;
+}
+
+.mix-borders{
+    background-color: skyblue;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-width: 10px;
+    border-color: tomato;
+    /* short hand version */
+    border: dashed 5px green;
+}
+
+.circle-container{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+    /* 0px - 100px - roundness*/
+    border-radius: 10px;
+    border-radius: 100px;
+    border-radius: 10%;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-container h2{
+    color: red;
+    padding: 30px;
+}
+
+

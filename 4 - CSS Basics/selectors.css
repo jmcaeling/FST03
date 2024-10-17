@@ -1,0 +1,41 @@
+/* Universal Selector */
+*{
+    font-size: 25px;
+}
+/* Element Selector */
+span{
+    color: white;
+    background-color: tomato;
+
+}
+
+/* Class Selector */
+
+.intro-paragraphs{
+    color: cyan;
+    background-color: gray;
+    
+}
+
+/* ID Selector */
+#main-heading{
+    color: green;
+    font-size: 25px;
+
+}
+
+/* Grouping Selector */
+h2, h1, .about-content{
+    color: blue;
+}
+
+/* Descendant Selector */
+.article-container p{
+    color: red;
+}
+
+/* Pseudo Class */
+a:active{
+    color: tomato;
+
+}
